@@ -7,10 +7,10 @@ namespace ATOS.Resource.Common.Abstraction.Interfaces
         /// <summary>
         /// Fecha de modificación del registro
         /// </summary>
-        public DateTime ModifiedDate { get; set; } 
+        public DateTime? ModifiedDate { get; set; } 
         /// <summary>
         /// Id del usuario que modificó el registro
         /// </summary>
-        public TUserKey ModifiedBy { get; set; }
+        public TUserKey? ModifiedBy { get; set; }
     }
 }
