@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10EC6FBD-1151-4B65-9480-005BE3E24371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B29F5657-7BDF-4B9B-B9A1-5222B5EF1FD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATOS.Resource.Common", "src\ATOS.Resource.Common\ATOS.Resource.Common.csproj", "{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1EFF500-0547-4741-B7B5-23F7AFCBD7FF} = {10EC6FBD-1151-4B65-9480-005BE3E24371}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C38A108-DDA3-41D6-B9BE-06E37D12EA42}
+	EndGlobalSection
+EndGlobal
